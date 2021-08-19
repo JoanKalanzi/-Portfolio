@@ -1,2 +1,0 @@
-# -Portolio
-Responsive React Portfolio
