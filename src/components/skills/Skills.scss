@@ -1,3 +1,104 @@
+
+@import "../../global.scss";
 .skills {
-  background-color: lightseagreen;
+  background-color:#f6e6e0;
+  position: relative;
+ 
+
+  .custom-shape-divider-top-1629892500 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1629892500 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 170px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1629892500 .shape-fill {
+    fill:#7689d8
+}
+  .wrapper{
+    position: relative;
+
+    .skill-Headers{
+
+        // font-family: "Poppins", sans-serif;
+        font-family: "Crimson Text", serif;
+        text-transform: uppercase;
+        margin-top: 40px;
+        margin-bottom: 20;
+        margin-left: 30;
+        font-size: 2.0rem;
+        color: #138086;
+        letter-spacing: 0.06rem;
+        display: flex;
+        justify-content: center;
+    }
+    .Icons{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      overflow: hidden;
+      margin-top: 30px;
+
+    .icon-icon{
+        width: 20%;
+        height:40%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        overflow: hidden;
+
+        .bulma{
+          width: 30%;
+          height: 50%;
+        }
+        .express{
+          width: 60%;
+          height: 50%;
+          margin-right: 10px;
+        }
+        p{
+          margin-bottom: 50px;
+          line-height: 1.55;
+          font-size: 1rem;
+          color:#138086;
+          // font-family:"Mada", sans-serif; 
+          font-family: "Crimson Text", serif;
+          
+        }
+    }
+
+      
+    }
+    
+    
+  }
+  .arrow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation: arrowBlink 2s infinite;
+    margin-bottom: 10%;
+   
+  }
+  @keyframes arrowBlink{
+   to{
+      opacity: 0;
+    }
+    
+  }
+  .MuiSvgIcon-root{
+    color: #eeb4aa;
+  }
+
 }

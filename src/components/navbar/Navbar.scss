@@ -27,6 +27,7 @@
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+        font-family: "Mada", sans-serif;
       }
       .itemContainer{
         display:flex;
@@ -36,6 +37,7 @@
         .icon{
         font: size 18px;
         margin-right: 5px;
+        color: $mainColor;
         }
         span{
         font-size: 15px;

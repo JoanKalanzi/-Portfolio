@@ -1,5 +1,5 @@
 import "./Navbar.scss"
-import {GitHub, Email } from "@material-ui/icons"
+import {GitHub, Email, LinkedIn } from "@material-ui/icons"
 
 export default function Navbar({ menuOpen,setMenuOpen }) {
   return(
@@ -8,12 +8,16 @@ export default function Navbar({ menuOpen,setMenuOpen }) {
         <div className ="left">
           <a href ="#intro" className="logo" >Joan</a>
           <div className="itemContainer">
-            <Email className="icon"/>
-            <span>joan.kalanzi1@gmail.com</span>
+            
+            <span><a href="joan.kalanzi1@gmail.com" target="_blank" rel="noreferrer" aria-label="Email."><Email className="icon" /></a></span>
           </div>
           <div className="itemContainer">
-            <GitHub className="icon"/>
-            <span>https://github.com/JoanKalanzi</span>
+            
+            <span><a href="https://github.com/JoanKalanzi" target="_blank" rel="noreferrer" aria-label="Email."><GitHub className="icon"/></a></span>
+          </div>
+          <div className="itemContainer">
+            
+            <span><a href="https://www.linkedin.com/in/joan-kalanzi-b53877207/" target="_blank" rel="noreferrer" aria-label="Email."><LinkedIn className="icon"/></a></span>
           </div>
         </div>
       
